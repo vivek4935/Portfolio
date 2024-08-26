@@ -1,0 +1,141 @@
+body {
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #006699;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.header-content p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.header-content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-content .social-links a {
+  margin: 0 10px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.about-me {
+  background-color: #e6f7ff;
+  border-left: 5px solid #006699;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.about-me h2 {
+  color: #006699;
+  margin-bottom: 15px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  border-color: #33cc99;
+}
+
+.card-content h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #33cc99;
+}
+
+.card-content p,
+.card ul li {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #33cc99;
+  color: #fff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: #aaa;
+  margin-top: 20px;
+}
+
+.card:nth-child(1) {
+  transform: translateY(0px);
+}
+
+.card:nth-child(2) {
+  transform: translateY(10px);
+}
+
+.card:nth-child(3) {
+  transform: translateY(20px);
+}
+
+.card:nth-child(4) {
+  transform: translateY(30px);
+}
+
+.card:nth-child(5) {
+  transform: translateY(40px);
+}
+
+.card:nth-child(6) {
+  transform: translateY(50px);
+}
+
+.card-container:nth-of-type(2) {
+  margin-top: 40px;
+}
